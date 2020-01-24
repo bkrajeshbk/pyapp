@@ -1,0 +1,13 @@
+Jenkinsfile Configuration-
+Create a credential with the name "github-build-svc" which will be used in init stage of Jenkinsfile.
+Create Sonarqube token which will be used in init stage of Jenkinsfile.
+->  Jenkinsscript - Jenkinsfile
+
+Jfrog configuration-
+Create a repository in Jfrog called to store the docker images built and pushed from Jenkins.
+
+Harness Configuration-
+Set Jfrog as the artifactory source for deployment and give the repository name.
+Create a credential which will be used for logging in to Jfrog for the same.
+->  Deployment script - harness-deployment-shell-script
+->  Rollback script - harness-rollback-shell-script
