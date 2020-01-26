@@ -9,5 +9,7 @@ Create a repository in Jfrog called to store the docker images built and pushed 
 Harness Configuration-
 Set Jfrog as the artifactory source for deployment and give the repository name.
 Create a credential which will be used for logging in to Jfrog for the same.
+->  Deployment or rollback script - harness-deployment-and-rollback-shell-script
+or
 ->  Deployment script - harness-deployment-shell-script
 ->  Rollback script - harness-rollback-shell-script
